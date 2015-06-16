@@ -382,6 +382,7 @@
     nmap <leader>f8 :set foldlevel=8<CR>
     nmap <leader>f9 :set foldlevel=9<CR>
 
+    nmap <leader><space> :call StripTrailingWhitespace()<CR>
     "UPPERCASE and lowsercase conversion
     nnoremap g^ gUiW
     nnoremap gv guiW
@@ -1170,4 +1171,3 @@
             source ~/.gvimrc.local
         endif
     endif
-" }
